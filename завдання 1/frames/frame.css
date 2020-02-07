@@ -44,6 +44,10 @@ ol, ul {
 	padding: 10px;
 }
 
+.opened .expand-area {
+	height: 150px;
+}
+
 .expand-list
   .expand-trigger:hover
     .expand-area
@@ -52,4 +56,13 @@ ol, ul {
 	padding: 5px;
 	margin: 0 0 15px;
 	border: 1px solid #aaa;
+}
+
+.reference {
+	color: #b56410;
+	text-decoration: none;
+}
+
+.reference:hover {
+	text-decoration: underline;
 }
