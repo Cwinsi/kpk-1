@@ -25,7 +25,8 @@ header h2.text {
 	flex-grow: 2;
 	text-align: center;
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 22pt;
+	margin: 8px;
 }
 
 .wrap {
@@ -59,8 +60,14 @@ header, footer {
 footer {
 	background: #51545a;
 	color: #fff;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 10pt;
+	display: flex;
+	justify-content: space-between;
+}
+
+i {
+	margin-right: 8px;
 }
 
 @media screen and (max-width: 800px) {
