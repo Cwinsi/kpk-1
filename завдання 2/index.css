@@ -15,7 +15,7 @@ body {
 	padding: 0;
 
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 4fr;
 	grid-template-rows: 2fr 7fr;
 
 	grid-template-areas: "h h" "a c"
@@ -77,9 +77,31 @@ header .title marquee div a {
 }
 
 content {
-	grid-area: c
+	grid-area: c;
 }
 
 aside {
-	grid-area: a
+	grid-area: a;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: #fafafa;
+	position: relative;
+}
+
+aside a {
+	color: black;
+}
+
+aside ul {
+	flex-grow: 2;
+}
+
+aside .line {
+	height: 80px;
+	background: rgb(231, 231, 231);
+}
+
+h1 {
+	font-size: 24pt;;
 }
