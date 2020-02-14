@@ -24,9 +24,12 @@ body {
 header {
 	grid-area: h;
 	overflow: hidden;
-	background: url("https://wallpapers-fenix.eu/full/180815/211731953.jpg") no-repeat;
 	background-size: 100%;
-	background-position: center;
+	background: url("https://wallpapers-fenix.eu/full/180815/211731953.jpg") no-repeat center;
+}
+
+.content {
+	grid-area: c;
 }
 
 .bg {
@@ -76,10 +79,6 @@ header .title marquee div a {
 	text-decoration: underline;
 }
 
-content {
-	grid-area: c;
-}
-
 aside {
 	grid-area: a;
 	display: flex;
@@ -104,4 +103,10 @@ aside .line {
 
 h1 {
 	font-size: 24pt;;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+	border: none;
 }
